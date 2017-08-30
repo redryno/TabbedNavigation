@@ -1,9 +1,9 @@
 //
 //  TabNavigationController.swift
-//  PostLaMode
+//  TabbedNavigation
 //
 //  Created by Ryan Bigger on 12/1/16.
-//  Copyright © 2017 Evus Technologies. All rights reserved.
+//  Copyright © 2017 Ryan Bigger. All rights reserved.
 //
 
 import UIKit
@@ -185,6 +185,7 @@ class TabNavigationController: UINavigationController, UINavigationControllerDel
     }
     
     // MARK: - Navigation
+    
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: animated)
         self.animateTabsOut()
